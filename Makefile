@@ -4,4 +4,4 @@ build/index: index.o
 	@mkdir -p build
 	$(CC) index.o $(CFLAGS) -o build/index
 index.o: index.c
-	$(CC) -c index.c
+	$(CC) -c index.c -Wall -std=c99 -pedantic
