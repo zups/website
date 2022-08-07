@@ -1,0 +1,5 @@
+# The directory make will write runnable program to.
+/build/
+
+# Also ignore object files
+*.o
